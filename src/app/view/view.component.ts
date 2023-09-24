@@ -21,7 +21,7 @@ export class ViewComponent {
 
   ngOnInit(): void {}
 
-  onSectionChange(sectionId: string) {
+  onSectionChange(sectionId: any) {
     this.currentSection = sectionId;
     this.scrollSpy.nextCount(sectionId);
   }

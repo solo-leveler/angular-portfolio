@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 
 import { ViewRoutingModule } from './view-routing.module';
 import { SharedModule } from '../components/shared/shared.module';
+import { ViewComponent } from './view.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [ViewComponent],
   imports: [
     CommonModule,
     ViewRoutingModule,

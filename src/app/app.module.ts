@@ -7,6 +7,7 @@ import { LoaderModule } from './components/loader/loader.module';
 import { SharedModule } from './components/shared/shared.module';
 import { MainComponent } from './main/main.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgClickOutsideDirective } from 'ng-click-outside2';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     LoaderModule,
     SharedModule,
+    //NgClickOutsideDirective,
     NgbModule
   ],
   providers: [],

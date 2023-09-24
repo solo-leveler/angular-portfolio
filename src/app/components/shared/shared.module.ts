@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ScrollSpyDirective } from '../scroll-spy/scroll-spy.directive';
+import { SectionModule } from '../section/section.module';
 
 
 
@@ -10,11 +11,11 @@ import { ScrollSpyDirective } from '../scroll-spy/scroll-spy.directive';
   ],
   imports: [
     CommonModule,
-    // SectionsModule
+    SectionModule
   ],
   exports: [
     ScrollSpyDirective,
-    //SectionsModule
+    SectionModule
   ],
   providers: [ScrollSpyDirective],
 })
