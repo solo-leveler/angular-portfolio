@@ -45,7 +45,7 @@ export class HomeComponent implements OnInit, AfterContentInit {
     }, 2000);
   }
 
-  scrollTo(section: string) {
+  scrollTo(section: any) {
     const sectionHtml = document.querySelector('#' + section);
     if (sectionHtml !== null) {
       sectionHtml.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
