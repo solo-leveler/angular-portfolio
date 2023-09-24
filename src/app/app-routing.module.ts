@@ -11,12 +11,12 @@ const routes: Routes = [
   {
     path: 'main',
     component: MainComponent,
-    // children: [
-    //   {
-    //     path: 'view',
-    //     loadChildren: () => import('./view/view.module').then(module => module.ViewModule)
-    //   }
-    // ]
+    children: [
+      {
+        path: 'view',
+        loadChildren: () => import('./view/view.module').then(module => module.ViewModule)
+      }
+    ]
   }
 ];
 

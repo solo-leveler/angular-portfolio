@@ -46,7 +46,7 @@ export class MainComponent implements OnInit {
 
   public collapsedCard: string = 'collapsed';
 
-  constructor(public scrollSpy: ScrollSpyService, private location: Location) {
+  constructor(public scrollSpy: ScrollSpyService) {
     this.themeConfig = Config.config;
     this.windowWidth = window.innerWidth;
   }
