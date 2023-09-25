@@ -1,1 +1,6 @@
-<p>gallery works!</p>
+<div class="column has-text-centered">
+    <div class="img-row" *ngFor="let image of albums; let i=index">
+      <img class="img-frame" [src]="getSantizeUrl(image.thumb)" (click)="open(i)" *ngIf="i === 0"/>
+    </div>
+  </div>
+  
