@@ -8,9 +8,9 @@
       </div>
       <!-- logo image -->
       <div class="site-logo">
-        <a routerLink="/">
+        <!-- <a routerLink="/">
           <img [src]="this.themeConfig.themeType === 'light' ? 'assets/images/logo-dark.svg' : 'assets/images/logo.svg'" alt="Bolby" />
-        </a>
+        </a> -->
       </div>
     </div>
   </header>
@@ -77,11 +77,14 @@
   <header *ngIf="this.themeConfig.theme !== 'horizontal'" class="d-flex align-items-start flex-column {{ openClass }}" [ngClass]="desktopHeaderClass">
   
     <!-- logo image -->
-    <div class="site-logo">
-      <a routerLink="/">
+    
+      <!-- <a routerLink="/">
         <img [src]="desktopLogo" alt="Bolby" />
-      </a>
-    </div>
+      </a> -->
+      <div class="input-wrapper">
+        <h2 class="placeholder"> </h2>
+      </div>
+    
   
     <!-- main menu -->
     <nav>
