@@ -9,6 +9,11 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'main/view',
+    redirectTo: '/main/view',
+    pathMatch: 'full'
+  },
+  {
     path: 'main',
     component: MainComponent,
     children: [
