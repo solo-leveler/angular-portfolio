@@ -2,8 +2,9 @@
 @import 'typed';
   .input-wrapper {
     display: block;
-    // font-family: 'Tiro Devanagari Sanskrit', serif;
-    font-family: 'Poppins', sans-serif;
+    position: relative;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    //font-family: 'Poppins', sans-serif;
     font-size: 125%;
     > input,
     > .placeholder {
@@ -13,7 +14,7 @@
       height: 100%;
       background-color: transparent;
       border: none;
-      color: white;
+      color: #ff4c60;
     }
     > .placeholder {
       pointer-events: none;
