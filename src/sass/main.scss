@@ -103,6 +103,20 @@ section.home {
 	}
 }
 
+.section-title-krishna {
+	margin: 0;
+	
+	&:before {
+		background-image: url(./../assets/images/krishna.jpeg);
+		display: block;
+		height: 37px;
+		left: -14px;
+		top: -14px;
+		position: absolute;
+		width: 37px;
+	}
+}
+
 /*=================================================================*/
 /*                      PARALLAX SHAPES                              
 /*=================================================================*/
