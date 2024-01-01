@@ -11,7 +11,7 @@ const routes: Routes = [
   {
     path: 'main/view',
     redirectTo: '/main/view',
-    pathMatch: 'full'
+    // pathMatch: 'full'
   },
   {
     path: 'main',
