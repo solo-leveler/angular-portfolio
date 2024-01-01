@@ -9,9 +9,9 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'main/view',
+    path: 'main',
     redirectTo: '/main/view',
-    // pathMatch: 'full'
+    pathMatch: 'full'
   },
   {
     path: 'main',
